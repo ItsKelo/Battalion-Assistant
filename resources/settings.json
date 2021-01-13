@@ -1,0 +1,17 @@
+{
+   "prefix":"-",
+   "admin_ids":[
+      null
+   ],
+   "privileged_roles":[
+      null
+   ],
+   "loa_sheet_url": null,
+   "loa_channel":null,
+   "end_date_column": null,
+   "first_unformatted_row": null,
+   "names_column": null,
+   "end_dates_column": null,
+   "loa_sheetname": null,
+   "blacklist_sheetname": null
+}
