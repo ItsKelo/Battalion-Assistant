@@ -59,6 +59,9 @@ These steps should be done on the device which the bot will run on.
 - loa_sheetname: The worksheet name for the LOA data (preferably the form). This is not the entire sheet name, just the sub worksheet.
 - blacklist_sheetname: The worksheet name for the Blacklist data.
 
+Should end up looking similar to:
+![image](https://user-images.githubusercontent.com/32295800/104526327-ff195500-55f9-11eb-933f-496f8dfa660d.png)
+
 
 ## Run the bot
 Open your terminal, route to the directory containing the code for the bot. Once inside, run `python3 bot.py`. If you've followed the steps correctly, the bot should boot up and start checking your LOAs.
