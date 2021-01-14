@@ -39,8 +39,7 @@ These steps should be done on the device which the bot will run on.
 ### Google Developer Console.
 1. Head to Google Developers Console and create a new project. Link: https://console.developers.google.com/project
 2. In the project, in the search box labeled “Search for APIs and Services”, search for “Google Sheets API” and enable it.
-3. Head to the 'Credentials' section of the project by clicking the dropdown menu shown.
-<img src="https://user-images.githubusercontent.com/32295800/104520889-cbd3c780-55f3-11eb-8149-9b58bc3188da.png" height="200" />
+3. Head to the 'Credentials' section of the project by clicking the dropdown menu shown. <img src="https://user-images.githubusercontent.com/32295800/104520889-cbd3c780-55f3-11eb-8149-9b58bc3188da.png" height="200" />
 4. Click “Create credentials > Service account”.
 5. Fill out the form
 6. Click on the email of the newly created service account and "Create a Key"
