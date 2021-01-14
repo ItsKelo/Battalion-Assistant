@@ -1,4 +1,4 @@
-# Battalion Assistant
+#  Battalion Assistant <img src="https://user-images.githubusercontent.com/32295800/104533495-69d28c80-560a-11eb-92a0-9023d0665d68.png" height="50"/>
 Discord bot to help with LOA automation and tryout blacklist checking.
 This bot runs on python, so in order to run it, you'll need to install the python coding language + the required packages.
 This bot's uptime is dependant on what you host it on. You can host it on your local PC if you want, but uptime will be dependant on your internet + willingness to keep your PC on. Other hosting options (e.g. web services/cloud servers) are available.
