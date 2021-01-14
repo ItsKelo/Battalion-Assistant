@@ -12,7 +12,8 @@ The battalion assistant discord bot is able to automate your google sheets LOA s
 
 ### Mass Blacklist checking
 Allows for a battalion doing tryouts to check multiple steam ids for possible blacklisted individuals at once. Great if you hate using alt+tab. 
-![image](https://user-images.githubusercontent.com/32295800/104526068-7d292c00-55f9-11eb-920f-3cfbf6464668.png)
+
+<img src="https://user-images.githubusercontent.com/32295800/104526068-7d292c00-55f9-11eb-920f-3cfbf6464668.png" height="200" />
 
 ---
 ## Setup Tutorial
@@ -22,7 +23,7 @@ These steps should be done on the device which the bot will run on.
 ### Prerequisities
 1. Download the latest version of Python 3 (if you don't have it already). Can be downloaded from https://www.python.org/downloads/
 2. Now that Python is downloaded, you will need to download the code for the bot and unzip it. This can be done by clicking "Download ZIP" under the "Code" dropdown Button. Place the folder containing the code in your desired directory.
-![DownloadZIP](https://user-images.githubusercontent.com/32295800/104519316-291a4980-55f1-11eb-826f-716031810f63.png)
+<img src="https://user-images.githubusercontent.com/32295800/104519316-291a4980-55f1-11eb-826f-716031810f63.png" height="200" />
 3. You'll need to use your terminal to install the required pip packages. Pip is a package manager built for the python language. It allows for pre-packaged libraries of code to be easily downloaded through your terminal. You can do this by going to the directory with the code, and running the terminal command `pip3 install -r requirements.txt`.
 
 ### Setting up the Discord Bot
