@@ -34,6 +34,7 @@ These steps should be done on the device which the bot will run on.
 5. **Disable the 'Public Bot' option. You DO NOT want this bot to be added to random servers.**
 6. Invite the bot to your discord server by going to the 'OAuth2' tab, clicking 'bot' in the scopes area, giving the bot the needed permissions, and copying and going to the URL provided. (You need discord admin to have the bot join).
 ![OAuth2URL](https://user-images.githubusercontent.com/32295800/104520624-4fd97f80-55f3-11eb-86d1-2a43664f3cb2.png)
+7. Lastly, copy the Token for the bot and paste it into the `token.txt` in the resources folder of the project. Do not share this token with anyone!
 
 ### Google Developer Console.
 1. Head to Google Developers Console and create a new project. Link: https://console.developers.google.com/project
