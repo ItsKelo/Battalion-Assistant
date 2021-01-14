@@ -6,7 +6,9 @@ This bot's uptime is dependant on what you host it on. You can host it on your l
 ## Features
 ### Automated LOA System
 The battalion assistant discord bot is able to automate your google sheets LOA system. It will notify individuals in your discord when their LOA has expired. Freeing you poor officers of the need to check the LOA sheet everyday.
-![image](https://user-images.githubusercontent.com/32295800/104526129-99c56400-55f9-11eb-95bd-d7254270b8f2.png)
+
+<img src="https://user-images.githubusercontent.com/32295800/104526129-99c56400-55f9-11eb-95bd-d7254270b8f2.png" height="100" />
+
 
 ### Mass Blacklist checking
 Allows for a battalion doing tryouts to check multiple steam ids for possible blacklisted individuals at once. Great if you hate using alt+tab. 
