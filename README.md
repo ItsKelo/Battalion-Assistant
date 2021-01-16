@@ -1,4 +1,4 @@
-# Battalion Assistant
+#  Battalion Assistant <img src="https://user-images.githubusercontent.com/32295800/104533495-69d28c80-560a-11eb-92a0-9023d0665d68.png" height="50"/>
 Discord bot to help with LOA automation and tryout blacklist checking.
 This bot runs on python, so in order to run it, you'll need to install the python coding language + the required packages.
 This bot's uptime is dependant on what you host it on. You can host it on your local PC if you want, but uptime will be dependant on your internet + willingness to keep your PC on. Other hosting options (e.g. web services/cloud servers) are available.
@@ -6,11 +6,14 @@ This bot's uptime is dependant on what you host it on. You can host it on your l
 ## Features
 ### Automated LOA System
 The battalion assistant discord bot is able to automate your google sheets LOA system. It will notify individuals in your discord when their LOA has expired. Freeing you poor officers of the need to check the LOA sheet everyday.
-![image](https://user-images.githubusercontent.com/32295800/104526129-99c56400-55f9-11eb-95bd-d7254270b8f2.png)
+
+<img src="https://user-images.githubusercontent.com/32295800/104526129-99c56400-55f9-11eb-95bd-d7254270b8f2.png" height="100" />
+
 
 ### Mass Blacklist checking
 Allows for a battalion doing tryouts to check multiple steam ids for possible blacklisted individuals at once. Great if you hate using alt+tab. 
-![image](https://user-images.githubusercontent.com/32295800/104526068-7d292c00-55f9-11eb-920f-3cfbf6464668.png)
+
+<img src="https://user-images.githubusercontent.com/32295800/104526068-7d292c00-55f9-11eb-920f-3cfbf6464668.png" height="200" />
 
 ---
 ## Setup Tutorial
@@ -20,7 +23,7 @@ These steps should be done on the device which the bot will run on.
 ### Prerequisities
 1. Download the latest version of Python 3 (if you don't have it already). Can be downloaded from https://www.python.org/downloads/
 2. Now that Python is downloaded, you will need to download the code for the bot and unzip it. This can be done by clicking "Download ZIP" under the "Code" dropdown Button. Place the folder containing the code in your desired directory.
-![DownloadZIP](https://user-images.githubusercontent.com/32295800/104519316-291a4980-55f1-11eb-826f-716031810f63.png)
+<img src="https://user-images.githubusercontent.com/32295800/104519316-291a4980-55f1-11eb-826f-716031810f63.png" height="200" />
 3. You'll need to use your terminal to install the required pip packages. Pip is a package manager built for the python language. It allows for pre-packaged libraries of code to be easily downloaded through your terminal. You can do this by going to the directory with the code, and running the terminal command `pip3 install -r requirements.txt`.
 
 ### Setting up the Discord Bot
@@ -31,12 +34,12 @@ These steps should be done on the device which the bot will run on.
 5. **Disable the 'Public Bot' option. You DO NOT want this bot to be added to random servers.**
 6. Invite the bot to your discord server by going to the 'OAuth2' tab, clicking 'bot' in the scopes area, giving the bot the needed permissions, and copying and going to the URL provided. (You need discord admin to have the bot join).
 ![OAuth2URL](https://user-images.githubusercontent.com/32295800/104520624-4fd97f80-55f3-11eb-86d1-2a43664f3cb2.png)
+7. Lastly, copy the Token for the bot from the bot page and paste it into the `token.txt` in the resources folder of the project. Do not share this token with anyone!
 
 ### Google Developer Console.
 1. Head to Google Developers Console and create a new project. Link: https://console.developers.google.com/project
 2. In the project, in the search box labeled “Search for APIs and Services”, search for “Google Sheets API” and enable it.
-3. Head to the 'Credentials' section of the project by clicking the dropdown menu shown.
-![image](https://user-images.githubusercontent.com/32295800/104520889-cbd3c780-55f3-11eb-8149-9b58bc3188da.png)
+3. Head to the 'Credentials' section of the project by clicking the dropdown menu shown. <img src="https://user-images.githubusercontent.com/32295800/104520889-cbd3c780-55f3-11eb-8149-9b58bc3188da.png" height="200" />
 4. Click “Create credentials > Service account”.
 5. Fill out the form
 6. Click on the email of the newly created service account and "Create a Key"
@@ -60,7 +63,8 @@ These steps should be done on the device which the bot will run on.
 - blacklist_sheetname: The worksheet name for the Blacklist data.
 
 Should end up looking similar to:
-![image](https://user-images.githubusercontent.com/32295800/104526327-ff195500-55f9-11eb-933f-496f8dfa660d.png)
+
+<img src="https://user-images.githubusercontent.com/32295800/104526327-ff195500-55f9-11eb-933f-496f8dfa660d.png" height="200" />
 
 
 ## Run the bot
