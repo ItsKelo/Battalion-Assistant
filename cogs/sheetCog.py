@@ -10,8 +10,6 @@ with open("resources/settings.json") as file:
 items = settings["privileged_roles"]
 
 def is_privileged(ctx):
-    print(ctx.author.roles)
-    print(items)
     for role in ctx.author.roles:
         if role.id in items:
             return True;
